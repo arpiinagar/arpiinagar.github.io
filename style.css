@@ -1,108 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
 
-html{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-self: center;
-    font-family: 'Raleway', sans-serif;
-    color: white;
+body {
+	background-color: rgb(0, 0, 0);
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	align-self: center;
+	font-family: 'Raleway', sans-serif;
+	color: white;
 }
 
-.box{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-self: center;
-    height: 90vh;
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-self: center;
+	align-self: center;
+	height: 90vh;
 }
 
-.main-cont{
-    background-color: #101010;
-    background-blend-mode: lighten;
-    margin-bottom: 20px;
+.main-cont {
+	background-color: #101010;
+	background-blend-mode: lighten;
+	margin-bottom: 20px;
 }
 
-.intro{
-    margin-left: 5%;
-    font-size: 3.5rem;
-    font-weight: 900;
-    margin-top: 45px;
-    margin-bottom: 40px;
-    
+.intro {
+	margin-left: 5%;
+	font-size: 4rem;
+	font-weight: 900;
+	margin-top: 45px;
+	margin-bottom: 40px;
 }
-.content{
-    margin-left: 5%;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 25px;
-    width: 80%;
+.content {
+	margin-left: 5%;
+	font-size: 2rem;
+	font-weight: 600;
+	margin-bottom: 25px;
+	width: 80%;
 }
-.content-2{
-    margin-left: 5%;
-    font-size: 1.2rem;
-    font-weight: 500;
-    width: 80%;
+.content-2 {
+	margin-left: 5%;
+	font-size: 1.2rem;
+	font-weight: 500;
+	width: 80%;
 }
 
-.side-cont{
-    background-color: #ffc8c8;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-blend-mode: lighten;
-    margin-left: 20px;
-    margin-right: 20px;
-
+.side-cont {
+	background-color: #ffc8c8;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-blend-mode: lighten;
+	margin-left: 20px;
+	margin-right: 20px;
 }
-span{
-    font-weight: 800;
+span {
+	font-weight: 800;
 }
-.social{
-    width: 40px;
-    height: 40px;
-    padding: 10px 10px 10px 10px;
+.social {
+	width: 40px;
+	height: 40px;
+	padding: 10px 10px 10px 10px;
 }
 
 a:link {
-  color: white;
+	color: white;
 }
 
 /* visited link */
 a:visited {
-  color: white;
+	color: white;
 }
 
 /* mouse over link */
 a:hover {
-  color: red;
-  font-size: 800;
+	color: red;
+	font-size: 800;
 }
 
 /* selected link */
 a:active {
-  color:white;
+	color: white;
 }
 
-.footer{
-    margin-left: 45%;
+.footer {
+	margin-left: 45%;
 }
 
 @media screen and (min-width: 560px) {
-  .side-cont{   
-      flex-direction: column;
-
-  }
-  .box{
-      flex-direction: row;
-      margin-top: 10%;
-      height: 60vh;
-  }
+	.side-cont {
+		flex-direction: column;
+	}
+	.box {
+		flex-direction: row;
+		margin-top: 10%;
+		height: 60vh;
+	}
 }
